@@ -5,12 +5,14 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/file.h>
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <dirent.h>
 #include <time.h>
 #include <fcntl.h>
 #include <crypt.h>
+#include <signal.h>
 
 #define MAX_PARAMS 256
 #define MAX_IPS 256

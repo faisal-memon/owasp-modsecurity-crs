@@ -1,6 +1,6 @@
 #include "common.h"
 
-main(int argc, char *argv[])
+void main(int argc, char *argv[])
 {
 	char cmd[MAX_OUTPUT_SIZE];
 	char output[MAX_OUTPUT_SIZE];

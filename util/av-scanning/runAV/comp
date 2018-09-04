@@ -1,2 +1,3 @@
-gcc -c -o common.o -DEXTERN= common.c
+gcc -c -o common.o -D_GNU_SOURCE -DEXTERN= common.c
 gcc -o runAV -DEXTERN=extern common.o runAV.c
+gcc -o runAV-clamd -DEXTERN=extern common.o runAV-clamd.c
